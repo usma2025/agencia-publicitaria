@@ -1,0 +1,132 @@
+categoria_id,subcategoria,producto_servicio,variante_opcion,unidad_medida,cantidad_minima,precio_cop,precio_usd,incluye_iva,notas_tecnicas
+diseno_grafico,logos,Creacion de Logo,Solo Logo,Proyecto,1,370000,,false,Incluye 2 propuestas. Sin manual de imagen.
+diseno_grafico,logos,Creacion de Logo,Basic,Proyecto,1,490000,,false,Incluye 2 propuestas y manual basico + 3 piezas.
+diseno_grafico,logos,Creacion de Logo,Standard,Proyecto,1,1190000,,false,3 propuestas + manual medio + 10 piezas.
+diseno_grafico,logos,Creacion de Logo,Premium,Proyecto,1,2290000,,false,5 propuestas + manual completo + 30 piezas.
+diseno_grafico,redes_sociales,Plan Redes Figura Publica,Basic,Mensual,1,210000,,false,3 posts feed.
+diseno_grafico,redes_sociales,Plan Redes Figura Publica,Standard,Mensual,1,450000,,false,6 posts feed + 3 historias.
+diseno_grafico,redes_sociales,Plan Redes Figura Publica,Medium,Mensual,1,750000,,false,18 posts + 9 historias + 1 reel.
+diseno_grafico,redes_sociales,Plan Redes Figura Publica,Premium,Mensual,1,980000,,false,18 posts + 18 historias + 3 reels + estudio fotografico.
+diseno_grafico,ilustracion,Ilustracion Simplificada,Unidad,Unidad,1,75000,,false,Estilo Line Art.
+diseno_grafico,ilustracion,Ilustracion Simplificada,En Paquete,Unidad,1,56250,,false,Precio dentro de paquete de diseño.
+diseno_grafico,ilustracion,Ilustracion Retratista,Unidad,Unidad,1,180000,,false,Detalle alto en rostros.
+diseno_grafico,ilustracion,Ilustracion Caricatura,Unidad,Unidad,1,470000,,false,Estilo exagerado/humoristico.
+diseno_grafico,ilustracion,Ilustracion Infantil Pedagógica,Unidad,Unidad,1,240000,,false,Didactica y accesible.
+diseno_grafico,ilustracion,Ilustracion Publicitaria Producto,Unidad,Unidad,1,890000,,false,Enfoque comercial y empaques.
+diseno_grafico,ilustracion,Ilustracion Politica Personal,Unidad,Unidad,1,1170000,,false,Identidad y campañas.
+diseno_grafico,infografias,Infografia A,Estandar,Unidad,1,250000,,false,1-8 cuadros de texto / 1-2 ilustraciones.
+diseno_grafico,infografias,Infografia B,Estandar,Unidad,1,600000,,false,1-20 cuadros / 1-4 ilustraciones / iconos.
+diseno_grafico,infografias,Infografia C,Estandar,Unidad,1,1000000,,false,1-30 cuadros / 1-6 ilustraciones / multiformato.
+diseno_grafico,infografias,Infografia D Cartografia,Estandar,Unidad,1,400000,,false,Mapas y convenciones.
+diseno_grafico,lineas_graficas,Campanas y Eventos,Basic,Proyecto,1,780000,249,false,Key visual basico + 3 piezas.
+diseno_grafico,lineas_graficas,Campanas y Eventos,Standard,Proyecto,1,1290000,409,false,Key visual desarrollado + 10 piezas.
+diseno_grafico,lineas_graficas,Campanas y Eventos,Premium,Proyecto,1,3900000,1049,false,Universo grafico completo + 30 piezas.
+diseno_grafico,lineas_graficas,Campanas y Eventos,Solo Afiche,Proyecto,1,520000,,false,Cartel visual de alto impacto (2 propuestas).
+diseno_grafico,planes_permanentes,Plan Permanente,Basic,Mensual,1,1900000,589,false,40 horas mensuales. Lunes a viernes.
+diseno_grafico,planes_permanentes,Plan Permanente,Standard,Mensual,1,2900000,899,false,60 horas mensuales. Lunes a viernes.
+diseno_grafico,planes_permanentes,Plan Permanente,Premium,Mensual,1,6400000,1989,false,160 horas mensuales. Lunes a sabado.
+servicios_web,sitios_web,Paquete Web Esencial 1A,Diseno + Desarrollo,Proyecto,1,1400000,,false,Landing o hasta 5 secciones.
+servicios_web,sitios_web,Paquete Web Esencial 1B,Solo Desarrollo,Proyecto,1,500000,,false,Cliente entrega diseno visual.
+servicios_web,sitios_web,Paquete Web Profesional 2A,Diseno + Desarrollo,Proyecto,1,3200000,,false,Multipagina 5-7 secciones.
+servicios_web,sitios_web,Paquete Web Profesional 2B,Solo Desarrollo,Proyecto,1,1200000,,false,Cliente entrega diseno visual.
+servicios_web,sitios_web,Paquete Web Avanzado 3A,Diseno + Desarrollo,Proyecto,1,6900000,,false,E-commerce/Plataforma 10-20+ secciones.
+servicios_web,sitios_web,Paquete Web Avanzado 3B,Solo Desarrollo,Proyecto,1,3900000,,false,Implementacion frontend/backend.
+imprenta_cupos,tarjetas,Tarjeta Brillante 4x4,1000 Unidades,Paquete,1000,47000,,false,Cote 300g plastificado brillante 1 cara.
+imprenta_cupos,tarjetas,Tarjeta Brillante Troquelada,1000 Unidades,Paquete,1000,129000,,false,Forma personalizada con troquel.
+imprenta_cupos,tarjetas,Tarjeta Mate + UV Parcial,500 Unidades,Paquete,500,58000,,false,Cote 300g plastificado mate general + UV.
+imprenta_cupos,tarjetas,Tarjeta Mate + UV Parcial,1000 Unidades,Paquete,1000,85000,,false,Cote 300g plastificado mate general + UV.
+imprenta_cupos,tarjetas,Tarjeta Mate UV Troquelada,500 Unidades,Paquete,500,140000,,false,Troquelado especial + UV mate.
+imprenta_cupos,tarjetas,Tarjeta Mate UV Troquelada,1000 Unidades,Paquete,1000,167000,,false,Troquelado especial + UV mate.
+imprenta_cupos,volantes,Volante 4x0 Media Carta,1000 Unidades,Paquete,1000,88000,,false,Cote 115g 21.5x13.5 cm 1 cara.
+imprenta_cupos,volantes,Volante 4x0 1/4 Carta,1000 Unidades,Paquete,1000,48000,,false,Cote 115g 10.5x13.5 cm 1 cara.
+imprenta_cupos,volantes,Volante 4x0 1/4 Carta,2000 Unidades,Paquete,2000,90000,,false,Cote 115g 10.5x13.5 cm 1 cara.
+imprenta_cupos,volantes,Volante 4x4 Media Carta,1000 Unidades,Paquete,1000,157000,,false,Cote 115g full color 2 caras.
+imprenta_cupos,postales,Postal Brillante,1000 Unidades,Paquete,1000,192000,,false,11x18 cm Cote 300g.
+imprenta_cupos,postales,Postal Brillante Troquelada,1000 Unidades,Paquete,1000,302000,,false,11x18 cm troquelada.
+imprenta_cupos,postales,Postal Mate UV Parcial,1000 Unidades,Paquete,1000,380000,,false,11x18 cm Plastificado Mate + UV.
+imprenta_cupos,postales,Postal Mate UV Troquelada,1000 Unidades,Paquete,1000,490000,,false,11x18 cm Troquelada + UV.
+imprenta_cupos,postales,Postal Digital 1 Cara,100 Unidades,Paquete,100,75000,,false,11.7x16 cm Cote 300g.
+imprenta_cupos,postales,Postal Digital 2 Caras,100 Unidades,Paquete,100,95000,,false,11.7x16 cm Cote 300g.
+imprenta_cupos,separadores,Separador Brillante,1000 Unidades,Paquete,1000,96000,,false,5.4x18 cm Cote 300g.
+imprenta_cupos,separadores,Separador Brillante Troquelado,1000 Unidades,Paquete,1000,176000,,false,5.4x18 cm troquelado.
+imprenta_cupos,separadores,Separador Mate UV Parcial,1000 Unidades,Paquete,1000,190000,,false,5.4x18 cm UV Parcial.
+imprenta_cupos,separadores,Separador Mate UV Troquelado,1000 Unidades,Paquete,1000,270000,,false,5.4x18 cm Troquelado UV.
+imprenta_cupos,separadores,Separador Digital 1 Cara,100 Unidades,Paquete,100,45000,,false,5.8x16 cm sin plastificar.
+imprenta_cupos,separadores,Separador Digital 2 Caras,100 Unidades,Paquete,100,89000,,false,5.8x16 cm sin plastificar.
+imprenta_cupos,escarapelas,Escarapela Full Color 1 Cara,30 Unidades,Unidad,30,4500,,false,10x12 cm Cote 300g + sobre acetato.
+imprenta_cupos,escarapelas,Escarapela Full Color 1 Cara,50 Unidades,Unidad,50,3800,,false,10x12 cm Cote 300g + sobre acetato.
+imprenta_cupos,escarapelas,Escarapela Full Color 1 Cara,100 Unidades,Unidad,100,3600,,false,10x12 cm Cote 300g + sobre acetato.
+imprenta_cupos,escarapelas,Escarapela Full Color 1 Cara,500 Unidades,Unidad,500,2150,,false,10x12 cm Cote 300g + sobre acetato.
+imprenta_cupos,escarapelas,Escarapela Full Color 1 Cara,1000 Unidades,Unidad,1000,1900,,false,10x12 cm Cote 300g + sobre acetato.
+imprenta_cupos,escarapelas,Escarapela Full Color 2 Caras,30 Unidades,Unidad,30,5300,,false,10x12 cm Cote 300g 2 caras.
+imprenta_cupos,escarapelas,Escarapela Full Color 2 Caras,50 Unidades,Unidad,50,4400,,false,10x12 cm Cote 300g 2 caras.
+imprenta_cupos,escarapelas,Escarapela Full Color 2 Caras,100 Unidades,Unidad,100,4100,,false,10x12 cm Cote 300g 2 caras.
+imprenta_cupos,escarapelas,Escarapela Full Color 2 Caras,500 Unidades,Unidad,500,2350,,false,10x12 cm Cote 300g 2 caras.
+imprenta_cupos,escarapelas,Escarapela Full Color 2 Caras,1000 Unidades,Unidad,1000,2100,,false,10x12 cm Cote 300g 2 caras.
+imprenta_cupos,escarapelas,Escarapela Plastica Premium 1 Cara,12 Unidades,Unidad,12,23800,,false,9x11 cm plastico carnet.
+imprenta_cupos,escarapelas,Escarapela Plastica Premium 1 Cara,100 Unidades,Unidad,100,16800,,false,9x11 cm plastico carnet.
+imprenta_cupos,escarapelas,Escarapela Plastica Premium 2 Caras,12 Unidades,Unidad,12,25800,,false,9x11 cm plastico carnet 2 caras.
+imprenta_cupos,escarapelas,Escarapela Plastica Premium 2 Caras,100 Unidades,Unidad,100,17500,,false,9x11 cm plastico carnet 2 caras.
+gran_formato,banner,Banner Impresion Media/Baja,Estandar,M2,1,27900,,false,Lona mate o brillante con acabados.
+gran_formato,banner,Banner MESH,Estandar,M2,1,88000,,false,Malla PVC ideal exteriores y viento.
+gran_formato,banner,Banner Panaflex,Estandar,M2,1,84000,,false,Lona translucida avisos iluminados.
+gran_formato,banner,Caja de Luz Panaflex,Estandar,M2,1,520000,,false,Estructura completa caja de luz.
+gran_formato,tela,Impresion en Tela,Estandar,M2,1,39000,,false,Ancho 150 cm x alto variable.
+gran_formato,papel,Impresion Papel Plotter Bond,Estandar,Metro Lineal,1,27000,,false,Bond 90g ancho 100 cm.
+gran_formato,vinilos,Vinilo Blanco Adhesivo,Impresion,M2,1,36500,,false,Uso interiores/exteriores.
+gran_formato,vinilos,Vinilo Adhesivo Laminado,Impresion + Laminado,M2,1,54500,,false,Proteccion mate o brillante.
+gran_formato,vinilos,Vinilo Adhesivo Corte,Impresion + Corte,M2,1,39000,,false,Corte trazado en plotter.
+gran_formato,papelones,Papelon 188x320 cm,Sin Empalme,Unidad,1,96000,,false,Listo para empalmar.
+gran_formato,papelones,Papelon 188x320 cm,Con Empalme,Unidad,1,124000,,false,Servicio de empalme en 2 o 4 tiras.
+gran_formato,papelones,Papelon 235x384 cm,Sin Empalme,Unidad,1,144000,,false,Listo para empalmar.
+gran_formato,papelones,Papelon 235x384 cm,Con Empalme,Unidad,1,186000,,false,Servicio de empalme en 3 o 5 tiras.
+gran_formato,estructuras,Arana Interior Centro Plastico,100x200 cm,Unidad,1,169000,,false,Incluye estructura e impresion.
+gran_formato,estructuras,Arana Exterior 1 Cara,100x200 cm,Unidad,1,390000,,false,Base rellenable con agua/arena.
+gran_formato,estructuras,Arana Exterior 2 Caras,100x200 cm,Unidad,1,465000,,false,Base rellenable con agua/arena.
+gran_formato,estructuras,Roll Up PVC,100x200 cm,Unidad,1,265000,,false,Estructura retratil con perfil clip.
+gran_formato,estructuras,Backing Flex 1 Cara,200x200 cm,Unidad,1,595000,,false,Perfiles de aluminio.
+gran_formato,estructuras,Backing Flex 1 Cara,300x200 cm,Unidad,1,830000,,false,Perfiles de aluminio.
+gran_formato,estructuras,Backing Tela 1 Cara,200x200 cm,Unidad,1,900000,,false,Estructura tipo funda con cremallera.
+gran_formato,estructuras,Backing Tela 2 Caras,200x200 cm,Unidad,1,1090000,,false,Estructura tipo funda con cremallera.
+gran_formato,estructuras,Popman Arana 1 Cara,60x110 cm,Unidad,1,195000,,false,Estructura portatil.
+gran_formato,estructuras,Popman Doble Cara,60x60 cm,Unidad,1,295000,,false,Maleta en tela codra.
+gran_formato,estructuras,Popman Gota 2 Caras,60x120 cm,Unidad,1,340000,,false,Maleta en tela codra.
+laser_digital,impresion,Extra Tabloide / Tabloide,1-12 Caras,Cara,1,2300,,false,Papel Bond/Cote/Earthpac.
+laser_digital,impresion,Extra Tabloide / Tabloide,13+ Caras,Cara,13,2100,,false,Descuento por volumen.
+laser_digital,impresion,Carta u Oficio,1-12 Caras,Cara,1,1500,,false,Papel Bond/Cote.
+laser_digital,impresion,Fotografico Carta,1-12 Caras,Cara,1,3400,,false,Solo en tamano carta.
+laser_digital,adicionales,Adicional Adhesivo,Estandar,Hoja,1,500,,false,Suma al valor de la impresion.
+laser_digital,adicionales,Adicional Plastificado,Estandar,Cara,1,1200,,false,Suma al valor de la impresion.
+laser_digital,plotter_inyeccion,Plotter Bond 90g Pliego,1-12 Unidades,Unidad,1,18000,,false,70x100 cm inyeccion.
+laser_digital,plotter_inyeccion,Plotter Opalina 180g Pliego,1-12 Unidades,Unidad,1,20000,,false,70x100 cm inyeccion.
+textil,camisetas,Polialgodon / Piel Durazno 1 Cara,12 Unidades,Unidad,12,24700,,false,Solo camiseta blanca. Sublimacion.
+textil,camisetas,Polialgodon / Piel Durazno 1 Cara,50 Unidades,Unidad,50,19800,,false,Solo camiseta blanca. Sublimacion.
+textil,camisetas,Polialgodon / Piel Durazno 1 Cara,100 Unidades,Unidad,100,17200,,false,Solo camiseta blanca. Sublimacion.
+textil,camisetas,Algodon Color 1 Cara DTF,12 Unidades,Unidad,12,35200,,false,Cualquier color de camiseta.
+textil,camisetas,Algodon Color 1 Cara DTF,50 Unidades,Unidad,50,31300,,false,Cualquier color de camiseta.
+textil,camisetas,Algodon Color 1 Cara DTF,100 Unidades,Unidad,100,28800,,false,Cualquier color de camiseta.
+textil,camisetas,Algodon Color Serigrafia 1 Tinta,50 Unidades,Unidad,50,26200,,false,Screen 1 tinta (Color extra +$1000).
+textil,camisetas,Poliester 1 Cara Sublimacion,50 Unidades,Unidad,50,15800,,false,Camiseta blanca poliéster.
+textil,gorras,Gorra Malla Frente Color DTF,12 Unidades,Unidad,12,18200,,false,Estampado DTF hasta 12x12 cm.
+textil,gorras,Gorra Malla Frente Color Bordada,12 Unidades,Unidad,12,27200,,false,Bordado hasta 8x10 cm.
+textil,gorras,Gorra Malla Frente Blanco Sublimada,12 Unidades,Unidad,12,15200,,false,Estampado por sublimacion.
+textil,gorras,Gorra Drill DTF,12 Unidades,Unidad,12,25300,,false,Gorra en Drill acrilico.
+textil,chalecos,Chaleco Tipo Periodista,Estandar,Unidad,1,85000,,false,Drill 11 bolsillos.
+etiquetas,vinilo,Etiqueta Vinilo Adhesivo Corte,Metro Cuadrado,M2,1,46000,,false,En rollo con semicorte.
+etiquetas,vinilo,Etiqueta Vinilo Laminado Corte,Metro Cuadrado,M2,1,59000,,false,Con laminado mate/brillante.
+etiquetas,vinilo,Etiqueta Vinilo Troquelado,Metro Cuadrado,M2,1,53000,,false,Piezas sueltas individuales.
+etiquetas,papel,Adhesivo de Seguridad 9x5 cm,1000 Unidades,Paquete,1000,74000,,false,Plastificado brillante.
+etiquetas,papel,Adhesivo Seguridad Troquelado,1000 Unidades,Paquete,1000,158000,,false,Troquelado especial.
+retablos,liston,Retablo Liston 10x15 cm,1 Unidad,Unidad,1,23400,,false,Incluye impresion.
+retablos,liston,Retablo Liston 10x15 cm,3+ Unidades,Unidad,3,19500,,false,Precio por unidad a partir de 3.
+retablos,liston,Retablo Liston 30x40 cm,1 Unidad,Unidad,1,41400,,false,Incluye impresion.
+retablos,liston,Retablo Liston 30x40 cm,3+ Unidades,Unidad,3,34500,,false,Precio por unidad a partir de 3.
+retablos,liston,Retablo Liston 70x100 cm,1 Unidad,Unidad,1,179200,,false,Incluye impresion.
+retablos,liston,Retablo Liston 70x100 cm,3+ Unidades,Unidad,3,147200,,false,Precio por unidad a partir de 3.
+audiovisual,spots,Spot Politico Opción 01,2 Minutos,Proyecto,1,7900000,,false,4d preprod + 3d prod + 5d postprod.
+audiovisual,spots,Spot Politico Opción 02,2 Minutos (x2),Proyecto,1,13900000,,false,6d preprod + 6d prod + 7d postprod.
+audiovisual,spots,Spot Politico Opción 03,2 Minutos (x3),Proyecto,1,19900000,,false,8d preprod + 9d prod + 9d postprod.
+audiovisual,tiktok,Paquete TikTok/Reels 01,30 Dias,Proyecto,1,2290000,,false,26 videos Tipo A + 4 Tipo B.
+audiovisual,tiktok,Paquete TikTok/Reels 02,30 Dias,Proyecto,1,2690000,,false,22 videos Tipo A + 8 Tipo B.
+audiovisual,tiktok,Paquete TikTok/Reels 03,60 Dias,Proyecto,1,3990000,,false,50 videos Tipo A + 10 Tipo B.
+audiovisual,tiktok,Paquete TikTok/Reels 04,60 Dias,Proyecto,1,4690000,,false,40 videos Tipo A + 20 Tipo B.

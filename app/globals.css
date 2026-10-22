@@ -1,26 +1,118 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-tinta: #0b0b0b;
+  --color-carbon: #1a1a1a;
+  --color-papel: #f4f1ea;
+  --color-hueso: #e9e4d8;
+  --color-amarillo: #ffd400;
+  --color-magenta: #e5007d;
+  --color-cian: #00a0e3;
+  --color-gris: #6b6862;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-archivo);
+  --font-mono: var(--font-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-papel);
+  color: var(--color-tinta);
+}
+
+::selection {
+  background: var(--color-amarillo);
+  color: var(--color-tinta);
+}
+
+@utility font-display {
+  font-family: var(--font-archivo);
+  font-stretch: 125%;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  line-height: 0.92;
+}
+
+/* Trama de semitono (motivo de imprenta). */
+@utility trama {
+  background-image: radial-gradient(currentColor 1.2px, transparent 1.3px);
+  background-size: 10px 10px;
+}
+
+@utility btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 2px solid var(--color-tinta);
+  padding: 0.7rem 1.1rem;
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+  cursor: pointer;
+  &:hover:not(:disabled) {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 var(--color-tinta);
+  }
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  &:focus-visible {
+    outline: 3px solid var(--color-magenta);
+    outline-offset: 2px;
+  }
+}
+
+@utility campo {
+  width: 100%;
+  border: 2px solid var(--color-tinta);
+  background: white;
+  padding: 0.6rem 0.75rem;
+  font-weight: 600;
+  &:focus {
+    outline: none;
+    box-shadow: 4px 4px 0 var(--color-magenta);
+  }
+}
+
+@utility etiqueta {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.35rem;
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee {
+  animation: marquee 40s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+dialog::backdrop {
+  background: rgb(11 11 11 / 0.7);
 }

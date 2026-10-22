@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Por definir Agencia Publicitaria — Web y cotizadores
 
-## Getting Started
-
-First, run the development server:
+Next.js 16 (App Router) · Tailwind CSS 4 · Zustand · @react-pdf/renderer
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build && npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Precios
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`data/precios.csv` es la única fuente de precios. Antes de `dev`/`build` se ejecuta
+`npm run catalog`, que lo convierte en `data/catalog.json` y asigna el módulo de cotización:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Módulo | Regla | Productos |
+| --- | --- | --- |
+| A — Tarifa fija | Base × cantidad + piezas extra | `diseno_grafico`, `servicios_web`, `audiovisual` |
+| B — Por medida | MAX(ancho × alto, 1 m²) × (precio + acabados m²) × piezas; metro lineal sin mínimo | unidad `M2` / `Metro Lineal` |
+| C — Volumen | Precio del rango según cantidad mínima × cantidad | resto (escalones o paquetes) |
 
-## Learn More
+IVA (19%) y moneda se aplican sobre el subtotal desde el carrito.
 
-To learn more about Next.js, take a look at the following resources:
+## Dónde editar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Qué | Archivo |
+| --- | --- |
+| Marca, WhatsApp, correo, validez, IVA | `lib/site.ts` |
+| Secciones y productos "a cotizar" (sin precio) | `lib/catalog.ts` |
+| Acabados de gran formato | `lib/acabados.ts` |
+| Avisos legales / reglas de negocio | `lib/avisos.ts` |
+| Guías (vinilo, cupos, tallas, tiempos, excedentes) | `lib/guias.ts` |
+| Motor de cálculo | `lib/pricing.ts` |
